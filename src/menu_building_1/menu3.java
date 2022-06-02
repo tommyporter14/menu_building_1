@@ -44,8 +44,6 @@ public class menu3 {
 		//displayMenu method call
 		displayMenu(menuItems);
 		
-		//set up scanner
-		Scanner scnr = new Scanner(System.in);
 		
 		//get choice from user
 		choice = v.readInteger("Enter Choice: ", "Error, invalid input", 1, EXIT);
@@ -65,7 +63,6 @@ public class menu3 {
 		
 		//end message
 		System.out.println("Goodbye!");	
-		scnr.close();
 	}
 
 }
